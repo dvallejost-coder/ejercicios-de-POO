@@ -1,0 +1,11 @@
+class numero:
+    def __init__(self, valor):
+        self.valor = valor
+    def cuadrado(self):
+        return self.valor ** 2
+    def cubo(self):
+        return self.valor ** 3
+num = float(input("Ingrese un número: "))
+n = numero(num)
+print("cuadrado:", n.cuadrado())
+print("cubo:", n.cubo())
