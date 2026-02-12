@@ -1,0 +1,13 @@
+#suma es el resultado que necesitamos tener al final del codigo#
+suma = 0
+#X es una variable la cual contiene el numero 20#
+x = 20
+#hacemos que la variable suma tome el valor de que tenia antes mas el valor de X#
+suma = suma + x
+y = 40
+#hacemos que X cambie de valor haciendo una ecuacion en la que sumamos su valor con el valor de Y al cuadrado#
+x = x + y ** 2
+#tomamos las variables, dividimos X con Y y lo sumamos a suma, y esto queda guardado en la variable suma#
+suma = suma + x / y
+#imprimimos la variable suma, la cual mostrara su valor final#
+print("EL VALOR DE LA SUMA ES:", suma)
