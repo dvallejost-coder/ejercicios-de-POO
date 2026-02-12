@@ -1,0 +1,8 @@
+juan = float(input("Ingrese la edad de Juan: "))
+alberto = (2 / 3) * juan
+ana = (4 / 3) * juan
+mama = juan + alberto + ana
+print("Edad de Juan:", juan)
+print("Edad de Alberto:", alberto)
+print("Edad de Ana:", ana)
+print("Edad de la mamá:", mama)
